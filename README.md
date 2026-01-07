@@ -1,25 +1,22 @@
-# UMRT ROS Template
-ROS project repository template for the University of Manitoba Robotics Team.
+# UMRT Computer Vision ROS
 
-New projects should be **forked** from this repo (not using this as a template, as that prevents template changes from
-trickling down). Each new project must:
-1. Fill in missing fields in package.in.xml
-2. Fill in project name in CMakeLists.txt and Doxyfile
-3. Go into `umrt-build` package settings and give the new repo read permission
-4. Go into `umrt-apt-image` package settings and give the new repo read permission
-5. Go into `UMRoboticsTeam` organisation secrets and add the new repo to:
-   - `APT_DEPLOY_KEY`
-   - `APT_SIGNING_KEY`
-6. Copy the rulesets (branch protection rules) from a mature repository like
-   [umrt-arm-firmware-lib](https://github.com/UMRoboticsTeam/umrt-arm-firmware-lib/)
-7. Remove this notice and fill in below README template
-8. Write something in mainpage.dox
-9. Replace example files with real code, add source files to CMake targets, document it with Doxygen, and proceed
+This monorepo is based off of the umrt-project-perry-config repo as it consists of multiple packages based on a similar interest, Computer Vision. 
+
+Monorepo of ROS packages for configuring the University of Manitoba Robotics Team's software to work with Project Perry's computer vision packages.
+
+# UMRT ArUco Marker Detection
+
+This is the ROS 2 package, mainly configs for ArUco Marker Detection Package. 
+
+# UMRT Object Detection - FUTURE
+
+This is the ROS 2 package, mainly config for Object Detection Package.
 
 ---
-# Project Name
 
-This library/executable/project implements XYZ functionality for the University of Manitoba Robotics Team's 
-rover/robotic arm.
+# umrt-computer-vision-ros
 
-[See the documentation](https://umroboticsteam.github.io/********** project-name **********/)
+This library/executable/project implements Computer Vision functionality for the University of Manitoba Robotics Team's 
+rover/arm.
+
+[See the documentation](https://umroboticsteam.github.io/umrt-computer-vision-ros/)
